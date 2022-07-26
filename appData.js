@@ -242,3 +242,49 @@ const markorf1Data = {
         },
     },
 }
+
+//emilyqlark's ten knock-knock jokes:
+const emilyqlarkData = {
+    'emilyqlark': {
+        0: {
+            there: ["Beets"],
+            who: ["Beets me!"]
+        },
+        1: {
+            there:["Weekend"],
+            who: ["Weekend do anything we want!"]
+        },
+        2: {
+            there: ["Goat"],
+            who: ["Goat to the door and find out!"]
+        },
+        3: {
+            there: ["You"],
+            who: ["Yoo-hoo! Anybody home?"]
+        },
+        4: {
+            there: ["Butter"],
+            who: ["Butter let me in or I'll freeze!"]
+        },
+        5: {
+            there: ["Who"],
+            who: ["What are you, an owl?"]
+        },
+        6: {
+            there: ["Roach"],
+            who: ["Roach you a letter, and I'm putting it in your mailbox!"]
+        },
+        7: {
+            there: ["Leash"],
+            who: ["Leash you could do is answer the doorbell!"]
+        },
+        8: {
+            there: ["Abby"],
+            who: ["Abby birthday to you!"]
+        },
+        9: {
+            there: ["Radio"],
+            who: ["Radio not, here I come!"]
+        },
+    },
+}
