@@ -197,3 +197,48 @@ const trHexData = {
         },
     },
 }
+// markorf1 list of jokes:
+const markorf1Data = {
+    'markorf1': {
+        0: {
+            there: ["Wendy"],
+            who: ["Wendy you think we can go on a date?"]
+        },
+        1: {
+            there: ["Owl"],
+            who: ["Owl be seeing you soon, right?"]
+        },
+        2: {
+            there: ["Cheese"],
+            who: ["Cheese a cute girl!"]
+        },
+        3: {
+            there: ["Wire"],
+            who: ["Wire you still not in my phone’s contacts list?"]
+        },
+        4: {
+            there: ["Gopher"],
+            who: ["Gopher me, obviously."]
+        },
+        5: {
+            there: ["Police"],
+            who: ["Police tell me I’m your type!"]
+        },
+        6: {
+            there: ["Aherd"],
+            who: ["Aherd you like girls who tell knock-knock jokes!"]
+        },
+        7: {
+            there: ["Do-ya"],
+            who: ["Do-ya want to be my girlfriend?"]
+        },
+        8: {
+            there: ["Cook"],
+            who: ["Cook for me!"]
+        },
+        9: {
+            there: ["Norma Lee"],
+            who: ["Norma Lee I don’t say this, but I think I’m hundry!"]
+        },
+    },
+}
