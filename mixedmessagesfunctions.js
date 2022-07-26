@@ -1,5 +1,8 @@
 const {data} = require("./appData.js")
 
+// PLZ UPDATE CODE ABOVE TO ES6 IMPORT SYNTAX BEFORE DEPLOYING CODE
+// example: import {data} from "./appData.js";
+
 // I left the functions together so that they're easier to review - We could seperate them into different modules later..
 
 const getFirstObj = () => {
@@ -71,12 +74,14 @@ const secondWord = getWho();
 console.log(firstWord)
 console.log(secondWord)
 
+/////////////////////////////////////
+//      Front-end functions        //
+/////////////////////////////////////
 
-
-// Edit this code so it fits in w/ what you guys called your elements
+// Edit this code so it fits in w/ what you guys called your HTML elements
 
 // Ive used place holder ID names - your ID names may different,
-// Plz feel free to change the ID names accordingly
+// so plz feel free to change the ID names accordingly
 
 // NOTE: this file needs pre-existing elements to work
 
