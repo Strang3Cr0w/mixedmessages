@@ -17,17 +17,18 @@ const getFirstObj = () => {
             firstObj = data["strang3cr0w"];
             break;
         case 1:
-            firstObj = data["tmacchi"];
+            firstObj = data["unknownData"];
             break;
         case 2:
-            firstObj = data["tr_h3x"];
+            firstObj = data["trHex"];
             break;
         case 3:
-            firstObj = data["boody"];
+            firstObj = data["emilyqlark"];
             break;
         case 4:
             firstObj = data["markorf1"];
             break;
+       
         // add more cases for anyone else
         default:
             console.log("wtf - how did this happen");
@@ -84,8 +85,8 @@ console.log(secondWord)
 // so plz feel free to change the ID names accordingly
 
 // NOTE: this file needs pre-existing elements to work
-
-const goAway = document.querySelector("#goAwayButton");
+/*
+const goAway = document.getElementById("goAwayButton");
 const reply = document.querySelector("#goAwayReply");
 const goBack= document.querySelector("#goBackButton")
 
@@ -104,3 +105,4 @@ const goBackFunc= ()=> {
 goAway.onclick = goAwayResponse;
 
 goBack.onclick = goBackFunc;
+*/
