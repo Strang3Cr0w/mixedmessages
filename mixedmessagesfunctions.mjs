@@ -99,5 +99,11 @@ const goAwayResponse = () =>{
 //The listener function that invokes the knock knock joke function
 knock.onclick = knockKnockJoke;
 
+<<<<<<< HEAD
 //The listener function that invokes the snarky reponse function
 goAway.onclick = goAwayResponse;
+=======
+goBack.onclick = goBackFunc();
+
+startOver.onclick = resetPage();
+>>>>>>> 9fb758b44d1f1f0facefd539837545a9c9087762
