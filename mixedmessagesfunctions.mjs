@@ -29,7 +29,6 @@ const getFirstObj = () => {
         case 5:
             firstObj = data['emilyqlark'];
             break;
-        // add more cases for anyone else
         default:
             console.log("wtf - how did this happen");
             break;
@@ -68,36 +67,36 @@ const getWho = () => {
 const firstWord = getThere();
 const secondWord = getWho();
 
-// for testing purposes
-console.log(firstWord)
-console.log(secondWord)
 
 /////////////////////////////////////
 //      Front-end functions        //
 /////////////////////////////////////
 
-const goAway = document.getElementById("go_away");
+
+//Variables storing the element id's of the corresponding html buttons and the box that will display the response.
 const knock = document.getElementById("knock");
-const startOver = document.getElementById("start_over");
+const goAway = document.getElementById("go_away");
+const responseBox = document.getElementById("response_box");
+const response = document.getElementById("response");
+responseBox.style.display = "none";
 
-const goAwayResponse = () =>{
-    goAway.hidden = true;
-    knock.hidden = true;
-}
-
+//The function that hides the buttons, reveals the response box, and displays the joke.
 const knockKnockJoke = () =>{
-    goAway.style.display = "block";
-    reply.style.display = "none";
-    goBack.style.display = "none";
+    knock.style.display = "none";
+    goAway.style.display = "none";
+    responseBox.style.display = "block";
+    response.innerHTML = "Knock, Knock<br>Who's there?<br>" + firstWord + "<br>" + firstWord + " who?<br>" + secondWord;
 }
 
-const resetPage = () =>{
-    goAway.hidden = false;
-    knock.hidden = false;
+//The function that hides the buttons, reveals the response box, and displays a snarky response.
+const goAwayResponse = () =>{
+    knock.style.display = "none";
+    goAway.style.display = "none";
+    responseBox.style.display = "block";
+    response.innerHTML = "Where are you going? No sense of humor...";
 }
 
-goAway.onclick = goAwayResponse();
-
-goBack.onclick = goBackFunc();
-
-startOver.onclick = resetPage();
+//The listener function that invokes the knock knock joke function
+knock.onclick = knockKnockJoke;
+//The listener function that invokes the snarky reponse function
+goAway.onclick = goAwayResponse;
