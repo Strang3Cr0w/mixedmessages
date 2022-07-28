@@ -1,0 +1,62 @@
+#knock{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    margin: auto;
+    background-color: rgb(18, 18, 110);
+    color: white;
+    border:rgb(18, 18, 110);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+
+#go_away{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    background-color: rgb(18, 18, 110);
+    color: white;
+    border:rgb(18, 18, 110);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+
+#start_over{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top: 90%;
+    left: 45%;
+    background-color: red;
+    color: white;
+    border: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+#response_box{
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: 35%;
+    left: 38%;
+    background-color:rgb(110, 73, 18);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+*{
+    background-color:rgb(110, 73, 18);
+}
