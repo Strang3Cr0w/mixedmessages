@@ -100,4 +100,4 @@ goAway.onclick = goAwayResponse();
 
 goBack.onclick = goBackFunc();
 
-resetPage.onclick = resetPage();
+startOver.onclick = resetPage();
