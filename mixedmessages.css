@@ -8,7 +8,7 @@
     background-color: rgb(18, 18, 110);
     color: white;
     border:rgb(18, 18, 110);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     cursor: pointer;
 }
@@ -22,7 +22,34 @@
     background-color: rgb(18, 18, 110);
     color: white;
     border:rgb(18, 18, 110);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     cursor: pointer;
+}
+
+#start_over{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 45%;
+    background-color: red;
+    color: white;
+    border: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+#response_box{
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: 35%;
+    left: 38%;
+    background-color: black;
+}
+
+*{
+    background-color:rgb(110, 73, 18)
 }
