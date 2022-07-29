@@ -25,6 +25,9 @@ const getFirstObj = () => {
         case 4:
             firstObj = data["markorf1"];
             break;
+        case 5:
+            firstObj = data["bsuk"];
+            break;
         // add more cases for anyone else
         default:
             console.log("wtf - how did this happen");

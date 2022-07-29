@@ -91,6 +91,56 @@ module.exports.data = data;
 // };
 
 
+//BSUK's list of jokes, please add it to the data object:
+const bsukData = {
+    'bsuk': {
+        0: {
+            there: ["Boo"],
+            who: ["Calm down, no need to cry about it!"]
+        },
+        1: {
+            there: ["Kerry"],
+            who: ["Kerry me home, I'm too drunk to walk."]
+        },
+        2: {
+            there: ["Annie"],
+            who: ["Annie chance you open the door? I'm being chased!"]
+        },
+        3: {
+            there: ["Doctor"],
+            who: ["..and the Tardis!"]
+        },
+        4: {
+            there: ["Yah"],
+            who: ["Nah, I prefer Google."]
+        },
+        5: {
+            there: ["The"],
+            who: ["Yes, they're my favourite band!"]
+        },
+        6: {
+            there: ["The"],
+            who: ["Actually, we say the double-U aitch O, stupid.."]
+        },
+        7: {
+            there: ["Colin"],
+            who: ["Colin you to open the damn door!"]
+        },
+        8: {
+            there: ["Mike"],
+            who: ["Yes. It's your cue to open the damn door!"]
+        },
+        9: {
+            there: ["Cook"],
+            who: ["Hey! Who are you calling cuckoo?  I'm not crazy!"]
+        },
+    },
+}
+
+
+
+
+
 // Boody's array:  
 /* "boody": {
         0: {there: ["Joe"],
