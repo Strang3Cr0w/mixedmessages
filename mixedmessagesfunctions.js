@@ -1,6 +1,4 @@
-//Imports the data object fron appData.js
-//import data from "./appData.mjs";
-
+//data object that holds all of the jokes contributed by the team
 const data = {
     'tmacchi': {
         0: {
@@ -267,9 +265,6 @@ const data = {
         },
     }
 };
-
-
-
 
  //The below function first calculates the number of contributors and stores that number in the variable 'c'.
  //Then a rondom number is generated using the stored value in 'c' to choose who's jokes the program will be using.
