@@ -299,6 +299,9 @@ const getFirstObj = () => {
         case 5:
             firstObj = data['emilyqlark'];
             break;
+        case 6:
+            firstObj = data['bsuk'];
+            break;
         default:
             console.log("wtf - how did this happen");
             break;
